@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Albansah is the leading freelance marketplace to hire talented professionals for your projects. Find developers, designers, writers, and more."/>
+    <title>Albansah: Hire Freelancers & Find Freelance Jobs Online</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/p/AF1QipPsXUxYRP1jM7TkBwZH7lOnnpLQwxyrzxWb55WO=s680-w680-h510-rw" />
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://albansah.com/">
+    <meta property="og:title" content="Albansah: Hire Freelancers & Find Freelance Jobs Online">
+    <meta property="og:description" content="Hire the best freelancers for any job, online. Millions of people use Albansah to turn their ideas into reality.">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/p/AF1QipPsXUxYRP1jM7TkBwZH7lOnnpLQwxyrzxWb55WO=s680-w680-h510-rw">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://albansah.com/">
+    <meta property="twitter:title" content="Albansah: Hire Freelancers & Find Freelance Jobs Online">
+    <meta property="twitter:description" content="Hire the best freelancers for any job, online. Millions of people use Albansah to turn their ideas into reality.">
+    <meta property="twitter:image" content="https://lh3.googleusercontent.com/p/AF1QipPsXUxYRP1jM7TkBwZH7lOnnpLQwxyrzxWb55WO=s680-w680-h510-rw">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {},
+            animation: {
+              'infinite-scroll': 'infinite-scroll 100s linear infinite',
+              'flyer-scroll': 'flyer-scroll 60s linear infinite',
+            },
+            keyframes: {
+              'infinite-scroll': {
+                from: { transform: 'translateX(0)' },
+                to: { transform: 'translateX(-100%)' },
+              },
+              'flyer-scroll': {
+                from: { transform: 'translateX(0)' },
+                to: { transform: 'translateX(-100%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.47.1"
+  }
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+</head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
